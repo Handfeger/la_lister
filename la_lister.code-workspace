@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.defaultInterpreterPath": "/opt/homebrew/Caskroom/miniconda/base/envs/la_lister/bin/python"
+	}
+}
