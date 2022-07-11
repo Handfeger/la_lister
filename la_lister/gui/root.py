@@ -9,7 +9,7 @@ class Gui:
         lab = Label(self.root, text="Hello World")
         lab.pack()
 
-    def make_fullscreen(self) -> self:
+    def make_fullscreen(self) -> Gui:
         screen_width = self.root.winfo_screenwidth()
         screen_height = self.root.winfo_screenheight()
 
