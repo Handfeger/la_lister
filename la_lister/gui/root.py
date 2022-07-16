@@ -21,26 +21,18 @@ class Gui:
 
         self.root.attributes("-fullscreen", True)  # run fullscreen
         self.root.wm_attributes("-topmost", True)  # keep on top
-        # root.focus_set() # set focus on window
 
         # --- closing methods ---
 
         # close window with key `ESC`
-        def _on_escape():
+        def _on_escape(event):
             print("escaped")
             self.root.destroy()
 
         self.root.bind("<Escape>", _on_escape)
 
         # close window after 5s if `ESC` will not work
-        self.root.after(20000, self.root.destroy)
-
-        # --- canvas ---
-
-        canvas = Canvas(self.root)
-        canvas.pack(fill="both", expand=True)
-
-        canvas.create_oval((0, 0, screen_width, screen_height), fill="red", outline="")
+        # self.root.after(20000, self.root.destroy)
 
         return self
 
