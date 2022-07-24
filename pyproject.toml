@@ -6,6 +6,8 @@ authors = ["Michel Vielmetter <git@michelvielmetter.de>"]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.11"
+PyQt6 = "^6.3.1"
+PySide6 = "^6.3.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
