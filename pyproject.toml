@@ -5,7 +5,7 @@ description = "A small program to track coffee & more consumtion with a credit/p
 authors = ["Michel Vielmetter <git@michelvielmetter.de>"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.10,<3.11"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
