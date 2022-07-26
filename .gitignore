@@ -1,6 +1,9 @@
 ## Package ignores
 data
 
+## dev stuff
+libpython3.10.a
+
 
 ## Python ignores
 
